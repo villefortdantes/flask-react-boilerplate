@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <div>
-      {(items.length == 0) ?  <p>Loading</p> :
+      {(items.length === 0) ?  <p>Loading</p> :
       <ul>
       {items.map(item => (
         <li key={item.name}>
