@@ -10,7 +10,6 @@ const App = () => {
       res => res.json()
     ).then(
       data => {
-        console.log(data)
         setItems(data["items"])
       }
     )
